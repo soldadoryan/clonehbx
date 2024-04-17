@@ -156,6 +156,7 @@ export default function Home() {
               >
                 <S.Input
                   placeholder="E-mail"
+                  type="email"
                   value={nickname}
                   onChange={(e) => setNickname(e.target.value)}
                   required
