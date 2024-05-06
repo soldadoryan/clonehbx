@@ -166,6 +166,7 @@ export default function Home() {
                   value={pwd}
                   onChange={(e) => setPwd(e.target.value)}
                   required
+                  type="password"
                 />
                 <S.Submit type="submit">Vamos lá!</S.Submit>
               </S.Form>
